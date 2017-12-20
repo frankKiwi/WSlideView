@@ -24,6 +24,7 @@
     WBottomView *slide = [[WBottomView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height- 44, kScreenW, 44) withWidth:80];
     slide.titleStr = @"紧急求助";
     slide.botMV.titleStr = @"快点上车";
+    
     slide.btnBlock = ^(BOOL isClick) {
         if (isClick) {
             NSLog(@"我擦");
